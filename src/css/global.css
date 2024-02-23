@@ -15,7 +15,9 @@
   --light-gray: #abacac;
 }
 
-
+.modal-trigger {
+  cursor: pointer;
+}
 .modal {
   display: none;
   position: fixed;

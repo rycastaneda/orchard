@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const close = document.getElementById('close');
   const modal = document.getElementById('imageModal');
   const modalImage = document.getElementById('modalImage');
+  const anchor = document.querySelectorAll('a');
+
+  anchor.forEach(function (trigger) {
+    trigger.addEventListener('click', function () {
+      console.log('this.href', this.href);
+    });
+  });
 
   modalTrigger.forEach(function (trigger) {
     trigger.addEventListener('click', function () {
@@ -22,6 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
       closeModal();
     }
   };
+
+  
 });
 
 function closeModal() {
