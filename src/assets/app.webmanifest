@@ -1,8 +1,8 @@
 {
   "lang": "en-EN",
-  "name": "Webpack Vanilla JS — Template",
-  "short_name": "Webpack Vanilla JS — Template",
-  "description": "Start a Vanilla JavaScript App, SPA, landing page or website using Webpack, Babel, Core-JS, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds.",
+  "name": "Webpack Vanilla JS",
+  "short_name": "Webpack JS",
+  "description": "Discover the latest breakthroughs in organic nutrition on AEG. Explore news on wholesome, organic foods that have the power to reverse the impact of artificial flavorings. Stay informed about a healthier lifestyle and sustainable choices for a tastier and more nourishing culinary experience.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
