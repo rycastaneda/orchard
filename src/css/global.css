@@ -48,6 +48,10 @@
 }
 
 
+.fadeIn {
+  animation: fadeIn 0.3s;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
