@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   modalTrigger.forEach(function (trigger) {
     trigger.addEventListener('click', function () {
-      const imageUrl = this.previousSibling.getAttribute('srcset');
+      const imageUrl = this.getAttribute('modal-src');
       modalImage.src = imageUrl;
       modal.style.display = 'block';
     });
