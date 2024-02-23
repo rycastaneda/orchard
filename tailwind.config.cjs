@@ -11,7 +11,8 @@ module.exports = {
         tertiary: 'var(--tertiary)',
         color: 'var(--color)',
         'accent-primary': 'var(--accent-primary)',
-        'accent-primary-state': 'var(--accent-primary-state)'
+        'accent-primary-state': 'var(--accent-primary-state)',
+        'light-gray': 'var(--light-gray)'
       }
     }
   }
