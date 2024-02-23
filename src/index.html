@@ -1,66 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- ESSENTIAL -->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#0e1414">
-    <meta name="description" content="Discover the latest breakthroughs in organic nutrition on AEG. Explore news on wholesome, organic foods that have the power to reverse the impact of artificial flavorings. Stay informed about a healthier lifestyle and sustainable choices for a tastier and more nourishing culinary experience.">
-    <meta name="keywords" content="aeg, healthy, lifestyle, organic, food, nutrients, ingredients">
 
-    <!-- GENERAL -->
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- prettier-ignore -->
-    <link rel="manifest" href=<%= htmlWebpackPlugin.options.manifest %>
-    />
-    <!-- prettier-ignore -->
-    <link rel="icon" sizes="192x192" href=<%= htmlWebpackPlugin.options.icon192 %>
-    />
-    <!-- prettier-ignore -->
-    <link rel="icon" sizes="512x512" href=<%= htmlWebpackPlugin.options.icon512 %>
-    />
+<head>
+  <!-- ESSENTIAL -->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0e1414">
+  <meta name="description"
+    content="Discover the latest breakthroughs in organic nutrition on AEG. Explore news on wholesome, organic foods that have the power to reverse the impact of artificial flavorings. Stay informed about a healthier lifestyle and sustainable choices for a tastier and more nourishing culinary experience.">
+  <meta name="keywords" content="aeg, healthy, lifestyle, organic, food, nutrients, ingredients">
 
-    <!-- GOOGLE -->
-    <meta name="rating" content="General" />
-    <meta name="robots" content="index,follow" />
-    <!-- prettier-ignore -->
-    <link
-      rel="sitemap"
-      type="application/xml"
-      title="Sitemap"
-      href=<%= htmlWebpackPlugin.options.sitemap %>
-    />
-    <meta
-      name="google-site-verification"
-      content="43hCqye5FYTS4SnBMPKNFP-wBhfLHwRBykWJF1WJawo"
-    />
+  <!-- GENERAL -->
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- prettier-ignore -->
+  <link rel="manifest" href=<%=htmlWebpackPlugin.options.manifest %>
+  />
+  <!-- prettier-ignore -->
+  <link rel="icon" sizes="192x192" href=<%=htmlWebpackPlugin.options.icon192 %>
+  />
+  <!-- prettier-ignore -->
+  <link rel="icon" sizes="512x512" href=<%=htmlWebpackPlugin.options.icon512 %>
+  />
 
-    <!-- iOS -->
-    <!-- prettier-ignore -->
-    <link rel="apple-touch-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
-    />
-    <!-- prettier-ignore -->
-    <link rel="mask-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
-    color="black" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <!-- GOOGLE -->
+  <meta name="rating" content="General" />
+  <meta name="robots" content="index,follow" />
+  <!-- prettier-ignore -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href=<%=htmlWebpackPlugin.options.sitemap %>
+  />
+  <meta name="google-site-verification" content="43hCqye5FYTS4SnBMPKNFP-wBhfLHwRBykWJF1WJawo" />
 
-    <!-- ANDROID -->
-    <meta name="theme-color" content="#000" />
-    <meta name="mobile-web-app-capable" content="yes" />
+  <!-- iOS -->
+  <!-- prettier-ignore -->
+  <link rel="apple-touch-icon" href=<%=htmlWebpackPlugin.options.icon512 %>
+  />
+  <!-- prettier-ignore -->
+  <link rel="mask-icon" href=<%=htmlWebpackPlugin.options.icon512 %>
+  color="black" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-  </head>
+  <!-- ANDROID -->
+  <meta name="theme-color" content="#000" />
+  <meta name="mobile-web-app-capable" content="yes" />
 
-  <body>
-    <noscript class="text-center text-lg text-red-500">
-      Enable JavaScript to enjoy all the features of this app.
-    </noscript>
-    <main
-      id="main"
-      class="flex h-screen flex-col items-center justify-center bg-primary text-color"
-    >
-    </main>
-  </body>
+</head>
+
+<body>
+  <noscript class="text-center text-lg text-red-500">
+    Enable JavaScript to enjoy all the features of this app.
+  </noscript>
+  <main id="main" class="flex flex-col bg-primary text-color">
+    <div class="container mx-auto px-4 md:px-12 lg:px-48 lg:my-40 my-10 space-y-32">
+      <section class="md:grid-cols-2 grid lg:grid-cols-3 lg:space-x-4 space-y-4 lg:space-y-0">
+        <div
+          class="col-span-2 flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:grid-flow-col gap-4 sm:h-154 space-y-2 sm:space-y-0 text-center sm:text-left">
+          <picture class="sm:row-span-2">
+            <source srcset="/assets/images/component-01/Image-01@2x.jpg" media="(min-width: 475px)">
+            <source srcset="/assets/images/component-01/Image-01.jpg" media="(min-width: 320px)">
+            <img class="h-full" src="/assets/images/component-01/Image-01.jpg">
+          </picture>
+          <picture>
+            <source srcset="/assets/images/component-01/Image-02@2x.jpg" media="(min-width: 475px)">
+            <source srcset="/assets/images/component-01/Image-02.jpg" media="(min-width: 320px)">
+            <img class="h-full" src="/assets/images/component-01/Image-02.jpg">
+          </picture>
+          <picture>
+            <source srcset="/assets/images/component-01/Image-03@2x.jpg" media="(min-width: 475px)">
+            <source srcset="/assets/images/component-01/Image-03.jpg" media="(min-width: 320px)">
+            <img class="h-full" src="/assets/images/component-01/Image-03.jpg">
+          </picture>
+        </div>
+        <aside class="col-span-2 lg:col-span-1">
+          <h1 class="uppercase sm:tracking-widest border-b border-b-white pb-2 mb-4 sm:text-2xl text-lg font-light mt-4 sm:mt-0">Answer your body's
+            needs</h1>
+          <p class="font-light leading-7 mb-8 tracking-wider text-md lg:pr-4">The way ingredients are sourced affects
+            the way we nourish our bodies. Author Mark Schatzer believes our
+            body naturally develops an appetite for the foods and nutrients it needs to be healthy, but that artificial
+            flavorings are getting in the way. This can be reversed by focusing on high-quality ingredients and being
+            mindful as your appetite guides you to consume according to your body's needs.</p>
+
+          <span class="uppercase text-accent-primary-state">Be Mindful</span>
+          <p class="mt-4">Sourcing local or organic food is a good way to start being more mindful about what your'e
+            cooking and eating.</p>
+        </aside>
+      </section>
+
+      <section>
+        <h2 class="uppercase text-center text-4xl tracking-wide font-thin mb-16">All the latest from AEG</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:space-x-4">
+          <div class="lg:mb-12 mb-8 md:mr-2 lg:mr-0">
+            <picture>
+              <source srcset="/assets/images/component-02/Image-01@2x.jpg" media="(min-width: 475px)">
+              <source srcset="/assets/images/component-02/Image-01.jpg" media="(min-width: 320px)">
+              <img class="h-80 border-b-4 border-b-accent-primary-state" src="/assets/images/component-01/Image-01.jpg">
+            </picture>
+            <div class="mt-6">
+              <h3 class="text-lg mb-4">Summer Lunch Menu by Mark Best</h3>
+              <p class="font-light leading-7 mb-8 tracking-wider text-md lg:pr-4 font-light text-light-gray">AEG
+                ambassador Mark Best's summer eats
+                are guaranteed to help you make the most of the warmer weather and entertaining at home.</p>
+              <a href="#" class="border-b border-b-accent-primary-state uppercase pb-2">Read more</a>
+            </div>
+          </div>
+          <div class="lg:mb-12 mb-8 md:mr-2 lg:mr-0">
+            <picture>
+              <source srcset="/assets/images/component-02/Image-02@2x.jpg" media="(min-width: 475px)">
+              <source srcset="/assets/images/component-02/Image-02.jpg" media="(min-width: 320px)">
+              <img class="h-80 border-b-4 border-b-accent-primary-state" src="/assets/images/component-02/Image-02.jpg">
+            </picture>
+            <div class="mt-6">
+              <h3 class="text-lg mb-4">A Traditional Christmas Eve, Mark Best Style</h3>
+              <p class="font-light leading-7 mb-8 tracking-wider lg:pr-4 font-light text-light-gray">
+                One of Australia's best chefs and AEG ambassador, Mark Best, shares his favourite Christmas Eve menu
+                which
+                is sure to impress your guests.
+              </p>
+              <a href="#" class="border-b border-b-accent-primary-state uppercase pb-2">Read more</a>
+            </div>
+          </div>
+          <div class="lg:mb-12 mb-8 md:mr-2 lg:mr-0">
+            <picture>
+              <source srcset="/assets/images/component-02/Image-03@2x.jpg" media="(min-width: 475px)">
+              <source srcset="/assets/images/component-02/Image-03.jpg" media="(min-width: 320px)">
+              <img class="h-80 border-b-4 border-b-accent-primary-state" src="/assets/images/component-03/Image-03.jpg">
+            </picture>
+            <div class="mt-6">
+              <h3 class="text-lg mb-4">Taking Taste Further</h3>
+              <p class="font-light leading-7 mb-8 tracking-wider text-md lg:pr-4 font-light text-light-gray">
+                This exclusive cookbook gives you all the know-how you need. We've designed it to make sure you get the most out of our products - and the best out of your food.
+              </p>
+              <a href="#" class="border-b border-b-accent-primary-state uppercase pb-2">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</body>
+
 </html>
