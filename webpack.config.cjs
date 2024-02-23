@@ -69,6 +69,9 @@ module.exports = () => {
           'apple-mobile-web-app-title': meta.title
         },
         title: meta.title,
+        imagePath: isProduction ? 
+          '/images'
+          : '/assets/images',
         icon192: isProduction
           ? '/favicon/favicon-192.webp'
           : '/assets/favicon/favicon-192.webp',
