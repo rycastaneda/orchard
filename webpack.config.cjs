@@ -73,11 +73,11 @@ module.exports = () => {
           '/images'
           : '/assets/images',
         icon192: isProduction
-          ? '/favicon/favicon-192.webp'
-          : '/assets/favicon/favicon-192.webp',
+          ? '/favicon/aeg192x192.png'
+          : '/assets/favicon/aeg192x192.png',
         icon512: isProduction
-          ? '/favicon/favicon-512.webp'
-          : '/assets/favicon/favicon-512.webp',
+          ? '/favicon/aeg512x512.png'
+          : '/assets/favicon/aeg512x512.png',
         manifest: isProduction ? '/app.webmanifest' : '/assets/app.webmanifest',
         sitemap: isProduction ? '/sitemap.xml' : '/assets/sitemap.xml',
         template: getDirectory('src/index.html'),
