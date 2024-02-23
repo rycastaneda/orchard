@@ -1,0 +1,106 @@
+
+* {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Light'),
+    url('../assets/fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Regular'),
+    url('../assets/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Medium'),
+    url('../assets/fonts/OpenSans/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Bold'),
+    url('../assets/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_Condensed-Light'),
+    url('../assets/fonts/OpenSans_Condensed/OpenSans_Condensed-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_Condensed-Regular'),
+    url('../assets/fonts/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_Condensed-Medium'),
+    url('../assets/fonts/OpenSans_Condensed/OpenSans_Condensed-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_Condensed-Bold'),
+    url('../assets/fonts/OpenSans_Condensed/OpenSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_SemiCondensed-Light'),
+    url('../assets/fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_SemiCondensed-Regular'),
+    url('../assets/fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_SemiCondensed-Medium'),
+    url('../assets/fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans_SemiCondensed-Bold'),
+    url('../assets/fonts/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
