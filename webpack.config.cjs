@@ -105,6 +105,14 @@ module.exports = () => {
             {
               copy: [
                 {
+                  source: getDirectory('src/assets/images/**'),
+                  destination: 'dist/images'
+                }
+              ]
+            },
+            {
+              copy: [
+                {
                   source: getDirectory('src/assets/app.webmanifest'),
                   destination: 'dist/'
                 }
